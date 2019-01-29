@@ -1,0 +1,79 @@
+:root {
+  --color-primary: #6B188E;
+  --color-primary-light: #C56DEA;
+  --color-secondary: #000;
+  --color-accent: #FD9841;
+  --color-white: #fff;
+
+  --font-primary: "Gentium Basic", serif;
+  --font-secondary: Laila, sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
+
+h1, h2, h3 {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+}
+
+h4, h5, h6 {
+  font-family: var(--font-secondary);
+  color: var(--color-primary-light);
+}
+
+ul, ol, dl {
+  color: var(--color-secondary);
+  font-family: var(--font-primary);
+  font-weight: bold;
+}
+
+a {
+  color: var(--color-primary-light);
+  font-family: var(--font-primary);
+}
+
+blockquote {
+  font-family: var(--font-primary);
+  font-style: italic;
+  color: var(--color-secondary);
+}
+
+cite {
+  font-family: var(--font-primary);
+  font-style: italic;
+  color: var(--color-primary);
+}
+
+em {
+  color: var(--color-secondary);
+  font-style: italic;
+}
+
+strong {
+  color: var(--color-secondary);
+  font-weight: bold;
+}
+
+i {
+  font-style: italic;
+}
+
+b {
+  font-weight: bold;
+  color: var(--color-primary);
+}
+
+del {
+  color: var(--color-primary);
+  background-color: var(--color-primary-light);
+}
+
+ins {
+  color: var(--color-accent);
+}
+
+abbr {
+  color: var(--color-primary);
+}
