@@ -1,5 +1,21 @@
 permalink: pretty
 theme: jekyll_patternbot
-
 patternbot:
+  title: "Modern Wizard"
+  description:  |
+    A small organization specializing in clothing enchantments and charms. We understand that in these modern times you need to look your best while also being unique. We take popular street fashion and combine them with magic in order to suit all of your needs.
   font_url: "https://fonts.googleapis.com/css?family=Gentium+Basic:400,700|Laila:400,700"
+  colors:
+    background: "#f2f2f2"
+    accent: "--color-primary"
+    patterns:
+      brand.logos: "--color-accent"
+  rationales:
+    typefaces.primary:  |
+      Gentium Basic was chosen because it is a nice readable serif font at all sizes. It is to be used for all body copy and most other situations.
+    typefaces.secondary:  |
+      Laila was chosen becasue it matches well with Gentium Basic and has an air of magic in its design. It is to be used for headers, buttons, and banners.
+    colors.primary:  |
+      The primary colours represent myths and all things magical. It should be used on most instances of header texts and foregrounds.
+    colors.secondary: |
+      The secondary colours are for body text and most other things. This is the default colour. Never use it for backgrounds.

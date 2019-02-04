@@ -1,7 +1,9 @@
 :root {
   --color-primary: #6B188E;
   --color-primary-light: #C56DEA;
+  --color-primary-dark: #310F40;
   --color-secondary: #000;
+  --color-seconary-light: #6C6C6C;
   --color-accent: #FD9841;
   --color-white: #fff;
 
@@ -76,4 +78,8 @@ ins {
 
 abbr {
   color: var(--color-primary);
+}
+
+mark {
+  background-color: var(--color-primary-light);
 }
