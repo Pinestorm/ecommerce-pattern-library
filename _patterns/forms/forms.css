@@ -1,0 +1,13 @@
+.subscribe {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+label,
+legend {
+  font-family: var(--font-secondary);
+}
+
+.bold {
+  font-weight: bold;
+}
