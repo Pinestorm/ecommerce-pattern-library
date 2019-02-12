@@ -1,0 +1,33 @@
+title: "Buttons"
+description: |
+  Buttons should be used in situations where a dramatic, obvious action is required. Try not to over use buttons because they should be the primary call-to-action for a screen.
+
+patterns:
+  basic:
+    title: "Basic"
+    description: |
+      Default to using the basic button. It should always be used in front of light backgrounds.
+    width: "20em"
+  ghost:
+    title: "Ghost"
+    description: |
+      The ghost button should be used on cards to encourage a user to add something to their cart.
+    width: "20em"
+  subscribe:
+    title: "Subscribe"
+    description: |
+      This button should only be used beside a form field to get a user to subscribe to something.
+    width: "20em"
+    background: "--color-primary"
+  normal:
+    title: "Normal"
+    description: |
+      This button is to be used on banners or other places where the user might need additional information.
+    background: "--color-primary-light"
+    width: "20em"
+  nav:
+    title: "Nav"
+    description: |
+      This button is to be used in the navigation bar to get a user home.
+    background: "--color-primary"
+    width: "20em"
