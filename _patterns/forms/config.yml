@@ -7,51 +7,64 @@ patterns:
     title: "Phone Form"
     description: |
       Use this field when the user needs to enter a phone number.
+    background: "--color-secondary"
   agree-to-terms:
     title: "Agree to Terms"
     description: |
       Use this field when the user needs to agree to the terms and conditions.
+    background: "--color-secondary"
   subscribe-form:
     title: "Subscribe Form"
     description: |
       Use this form an any page other than the checkout page, over the footer.
+    background: "--color-secondary"
   colours-form:
     title: "Colours Form"
     description: |
       Use these radios to indicate to the user that they need to pick a colour.
+    background: "--color-secondary"
   name-form:
     title: "Name Form"
     description: |
       Use this field when the user needs to enter their full name.
+    background: "--color-secondary"
   address-form:
     title: "Address Form"
     description: |
       Use this field when the user needs to enter their address.
+    background: "--color-secondary"
   city-form:
     title: "City Form"
     description: |
       Use this field when the user needs to enter their city.
+    background: "--color-secondary"
   province-form:
     title: "Province Form"
     description: |
       Use this field when the user needs to enter their province.
+    background: "--color-secondary"
   postal-code-form:
     title: "Postal Code Form"
     description: |
       Use this field when the user needs to enter their postal code.
+    background: "--color-secondary"
   subscribe-form-2:
     title: "Subscribe Form 2"
     description: |
       Use this field to ask the user if they want to subscribe to a newsletter when they checkout.
+    background: "--color-secondary"
   email-form:
     title: "Email Form"
     description: |
       Use this field when the user needs to enter an email address.
+    background: "--color-secondary"
   address-form-2:
     title: "Address Form 2"
     description: |
       Use this field when the user needs to enter additional info about their address.
+    background: "--color-secondary"
   discount-code:
     title: "Discount Code"
     description: |
       Use this field when the user wants to enter a discount code during checkout.
+    background: "--color-secondary"

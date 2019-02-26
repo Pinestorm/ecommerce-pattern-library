@@ -1,14 +1,14 @@
 :root {
-  --color-primary: #6B188E;
-  --color-primary-light: #C56DEA;
-  --color-primary-dark: #310F40;
-  --color-secondary: #000;
-  --color-seconary-light: #6C6C6C;
-  --color-accent: #FD9841;
+  --color-primary: #44318D;
+  --color-primary-light: #8167A5;
+  --color-primary-dark: #2A1B3D;
+  --color-secondary: #A4B3B6;
+  --color-accent: #D83F87;
   --color-white: #fff;
+  --color-black: #000;
 
   --font-primary: "Gentium Basic", serif;
-  --font-secondary: Laila, sans-serif;
+  --font-secondary: Atma, sans-serif;
 }
 
 html {
@@ -26,20 +26,20 @@ h4, h5, h6 {
 }
 
 ul, ol, dl {
-  color: var(--color-secondary);
+  color: var(--color-primary-dark);
   font-family: var(--font-primary);
   font-weight: bold;
 }
 
 a {
-  color: var(--color-primary-light);
+  color: var(--color-accent);
   font-family: var(--font-primary);
 }
 
 blockquote {
   font-family: var(--font-primary);
   font-style: italic;
-  color: var(--color-secondary);
+  color: var(--color-primary-dark);
 }
 
 cite {
@@ -49,12 +49,12 @@ cite {
 }
 
 em {
-  color: var(--color-secondary);
+  color: var(--color-primary);
   font-style: italic;
 }
 
 strong {
-  color: var(--color-secondary);
+  color: var(--color-primary);
   font-weight: bold;
 }
 
@@ -73,7 +73,7 @@ del {
 }
 
 ins {
-  color: var(--color-accent);
+  color: var(--color-secondary);
 }
 
 abbr {
@@ -81,5 +81,5 @@ abbr {
 }
 
 mark {
-  background-color: var(--color-primary-light);
+  background-color: var(--color-accent);
 }

@@ -11,8 +11,9 @@ patterns:
   ghost:
     title: "Ghost"
     description: |
-      The ghost button should be used on cards to encourage a user to add something to their cart.
+      The ghost button should be used on the product page to encourage a user to add something to their cart.
     width: "20em"
+    background: "--color-secondary"
   subscribe:
     title: "Subscribe"
     description: |
@@ -25,9 +26,9 @@ patterns:
       This button is to be used on banners or other places where the user might need additional information.
     background: "--color-primary-light"
     width: "20em"
-  nav:
-    title: "Nav"
+  view:
+    title: "View"
     description: |
-      This button is to be used in the navigation bar to get a user home.
+      This button is to be put on cards so that the user can then be brought to the product page.
     background: "--color-primary"
     width: "20em"
