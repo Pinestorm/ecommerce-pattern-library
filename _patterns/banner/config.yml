@@ -1,0 +1,29 @@
+patterns:
+  banner:
+    fields:
+    - name: heading
+      type: string
+      example: "Ever wish you could cast magic spells?"
+    - name: text
+      type: string
+      example: "With help from Modern Wizard, now you can! Being both fashionable and practical, Modern Wizard clothing is woven with the finest exotic fibres then enchanted by skilled spell casters."
+    - name: image
+      type: string
+      example: "/images/banner.jpg"
+    - name: button_text
+      type: string
+      example: "Shop now!"
+      required: false
+    - name: button_url
+      type: button_url
+      example: "/products/"
+      required: false
+
+  normal:
+    fields:
+    - name: text
+      type: string
+      example: "Shop now!"
+    - name: url
+      type: url
+      example: "/products/"
