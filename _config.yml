@@ -21,3 +21,6 @@ patternbot:
       The primary colours represent myths and all things magical. It should be used on most instances of header texts and foregrounds.
     colors.secondary: |
       The secondary colours are for backgrounds, accents, and other things as it is a contrasts to the primary purples.
+  layouts:
+    default:  |
+      The default layout should be used for every almost every page, it includeds the websites base header and footer.
