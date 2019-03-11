@@ -1,0 +1,14 @@
+html {
+  background-color: var(--color-primary);
+}
+
+.line-1 {
+  background-color: var(--color-accent);
+}
+
+.line-2 {
+  background-color: var(--color-black);
+}
+.btn-view {
+  min-width: 75px;
+}

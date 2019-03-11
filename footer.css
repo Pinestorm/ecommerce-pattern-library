@@ -1,0 +1,7 @@
+footer {
+  background-color: var(--color-primary);
+}
+
+.footer-list {
+  text-decoration: none;
+}
