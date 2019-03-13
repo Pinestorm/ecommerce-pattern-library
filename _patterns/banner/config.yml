@@ -18,12 +18,3 @@ patterns:
       type: button_url
       example: "/products/"
       required: false
-
-  normal:
-    fields:
-    - name: text
-      type: string
-      example: "Shop now!"
-    - name: url
-      type: url
-      example: "/products/"

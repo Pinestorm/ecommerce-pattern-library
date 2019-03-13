@@ -26,6 +26,13 @@ patterns:
       This button is to be used on banners or other places where the user might need additional information.
     background: "--color-primary-light"
     width: "20em"
+    fields:
+      - name: text
+        type: string
+        example: "Shop now!"
+      - name: url
+        type: url
+        example: "/products/"
   view:
     title: "View"
     description: |
