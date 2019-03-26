@@ -6,7 +6,7 @@ patterns:
   basic:
     title: "Basic"
     description: |
-      Default to using the basic button. It should always be used in front of light backgrounds.
+      The standard, basic button. It should always be used in front of light backgrounds.
     width: "20em"
     fields:
       - name: text
@@ -18,7 +18,7 @@ patterns:
   ghost:
     title: "Ghost"
     description: |
-      The ghost button should be used on the product page to encourage a user to add something to their cart.
+      The ghost button works well if you want a transparent button to go on a lighter-coloured background.
     width: "20em"
     background: "--color-secondary"
     fields:
@@ -31,7 +31,7 @@ patterns:
   subscribe:
     title: "Subscribe"
     description: |
-      This button should only be used beside a form field to get a user to subscribe to something.
+      This button should only be used on the right side of a form field to get the user to enter something.
     width: "20em"
     background: "--color-primary"
     fields:
@@ -44,7 +44,7 @@ patterns:
   normal:
     title: "Normal"
     description: |
-      This button is to be used on banners or other places where the user might need additional information.
+      This button works on banners or other things where there may be a lot of colour happening. It’s a button that works well to stand out.
     background: "--color-primary-light"
     width: "20em"
     fields:

@@ -45,7 +45,7 @@
 
 .btn-normal {
   background-color: var(--color-primary);
-  border-color: var(--color-accent);
+  border-color: transparent;
   color: var(--color-accent);
   border-radius: 50px;
   font-weight: bold;
@@ -54,4 +54,5 @@
 .btn-normal:hover {
   background-color: var(--color-accent);
   color: var(--color-primary);
+  border-color: transparent;
 }
