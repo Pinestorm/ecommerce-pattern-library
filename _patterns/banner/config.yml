@@ -1,5 +1,12 @@
+title: "Banners"
+description: |
+  Banners should be used when there is a call-to action needed somewher, or to display a header in a creative way.
+
 patterns:
   banner:
+    title: "Call to Action Banner"
+    description: |
+      The call to action banner should only be used on the Home page and Product list page to encourage to user to do something.
     fields:
     - name: heading
       type: string
@@ -18,3 +25,11 @@ patterns:
       type: button_url
       example: "/products/"
       required: false
+  header-banner:
+    title: "Header Banner"
+    descriptiom: |
+      This banner should be used when a normal header needs a more decorative flair.
+    fields:
+    - name: heading
+      type: string
+      example: Featured Products
