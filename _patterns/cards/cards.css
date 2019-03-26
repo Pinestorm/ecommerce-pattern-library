@@ -14,3 +14,17 @@
 .card:hover {
   background-color: #E2E5E7;
 }
+
+.display-card {
+  max-height: 400px;
+  max-width: 350px;
+}
+
+.display-img {
+  max-width: 200px;
+}
+
+.display-img:hover {
+  transform: scale(1.1);
+  transition: all .2s linear;
+}

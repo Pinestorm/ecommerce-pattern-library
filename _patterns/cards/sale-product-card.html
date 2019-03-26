@@ -3,10 +3,10 @@
     <i class="icon i-128"><svg><use xlink:href="/images/icons.svg#sale"></use></svg></i>
   </div>
   <div class="center-content-horizontal island-1-2 zindex-2">
-    <img class="img-flex card-img" src="/images/hoodies/invisibility-hoodie.jpg" alt="Invisibility Hoodie">
+    <img class="img-flex card-img" src="{{include.data.image}}" alt="Invisibility Hoodie">
   </div>
-  <h2 class="text-center zetta push-0">Invisibility Hoodie</h2>
-  <p class="text-center bold peta push-0"><s>$79.99 CDN</s> <mark class="zetta">49.99</mark>!!!</p>
+  <h2 class="text-center zetta push-0">{{include.data.name}}</h2>
+  <p class="text-center bold peta push-0"><s>${{include.data.price}}</s> <mark class="zetta">$49.99</mark>!!!</p>
   <p class="push-0 text-center mega">Colours availible:</p>
   <div class="center-content-horizontal">
     <ul class="list-group-inline">
@@ -25,6 +25,6 @@
     </ul>
   </div>
   <div class="button center-content-horizontal push">
-    {% pattern buttons/view %}
+    {% pattern buttons/view text="Buy Now" url=include.data.url %}
   </div>
 </div>

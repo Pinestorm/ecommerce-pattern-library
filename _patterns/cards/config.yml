@@ -14,3 +14,25 @@ patterns:
         data:
           source: "site.products[0]"
           type: product
+  sale-product-card:
+    title: "Sale Product Card"
+    width: 400
+    description: |
+      The sale product card is only to be used if an item is on sale.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: product
+  display-card:
+    title: "Display Card"
+    width: 400
+    description: |
+      The display card is only meant to be used to just display items in a group, such as featured products.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: product

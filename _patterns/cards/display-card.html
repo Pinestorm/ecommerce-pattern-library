@@ -1,0 +1,9 @@
+<div class="card display-card">
+  <div class="center-content-horizontal pad-t-1-2 pad-b-1-2">
+    <img class="img-flex card-img display-img" src="{{include.data.image}}" alt="">
+  </div>
+  <h5 class="text-center push-0">{{include.data.name}}</h5>
+  <div class="button center-content-horizontal push">
+    {% pattern buttons/basic text="View Product" url=include.data.url %}
+  </div>
+</div>
