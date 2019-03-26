@@ -1,14 +1,38 @@
-html {
+.header {
+  max-height: 325px;
   background-color: var(--color-primary);
 }
 
 .line-1 {
   background-color: var(--color-accent);
+  color: var(--color-accent);
+  margin: 0;
 }
 
 .line-2 {
   background-color: var(--color-black);
+  color: var(--color-black);
+  margin: 0;
 }
 .btn-view {
   min-width: 75px;
+}
+
+.cart {
+  position: relative;
+  top: -120px;
+  right: 20px;
+}
+
+.nav {
+  position: relative;
+  top: -50px;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .nav {
+    position: relative;
+    top: -150px;
+  }
 }
