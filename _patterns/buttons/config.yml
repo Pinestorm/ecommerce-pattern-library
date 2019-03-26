@@ -8,18 +8,39 @@ patterns:
     description: |
       Default to using the basic button. It should always be used in front of light backgrounds.
     width: "20em"
+    fields:
+      - name: text
+        type: string
+        example: "Basic"
+      - name: url
+        type: url
+        example: "/products/"
   ghost:
     title: "Ghost"
     description: |
       The ghost button should be used on the product page to encourage a user to add something to their cart.
     width: "20em"
     background: "--color-secondary"
+    fields:
+      - name: text
+        type: string
+        example: "Add to Cart"
+      - name: url
+        type: url
+        example: "/products/"
   subscribe:
     title: "Subscribe"
     description: |
       This button should only be used beside a form field to get a user to subscribe to something.
     width: "20em"
     background: "--color-primary"
+    fields:
+      - name: text
+        type: string
+        example: "Subscribe"
+      - name: url
+        type: url
+        example: "/products/"
   normal:
     title: "Normal"
     description: |
@@ -39,3 +60,10 @@ patterns:
       This button is to be put on cards so that the user can then be brought to the product page.
     background: "--color-primary"
     width: "20em"
+    fields:
+      - name: text
+        type: string
+        example: "View"
+      - name: url
+        type: url
+        example: "/products/"

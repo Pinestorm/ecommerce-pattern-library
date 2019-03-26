@@ -1,3 +1,16 @@
 title: "Cards"
 description: |
   Cards are used when there are multiple items to display on a page or when certain chunks of information appear regularily.
+
+patterns:
+  product-card:
+    title: "Product Card"
+    width: 400
+    description: |
+      The product card is used on the product listing page to show off all the different regular products.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: product
