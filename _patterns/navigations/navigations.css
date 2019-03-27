@@ -1,0 +1,6 @@
+.header-nav {
+  border-top: 3px solid var(--color-accent);
+  border-bottom: 3px solid var(--color-accent);
+  max-width: 600px;
+  max-height: 75px;
+}

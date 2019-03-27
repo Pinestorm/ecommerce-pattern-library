@@ -1,0 +1,9 @@
+title: "Navigations"
+description: |
+  Navigations are used throughout the website to lead the user into other pages.
+
+patterns:
+  main-nav:
+    title: "Main Nav"
+    description: |
+      The navigation used in the header.
