@@ -1,0 +1,9 @@
+title: "Sections"
+description: |
+  Sections are pieces of elements that should always go together on a page.
+
+patterns:
+  product-image:
+    title: "Product Image"
+    description: |
+      This pattern is the product image and different colours on the product details page. It does not show up properly in the Pattern Library.
