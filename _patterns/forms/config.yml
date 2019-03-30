@@ -68,3 +68,8 @@ patterns:
     description: |
       Use this field when the user wants to enter a discount code during checkout.
     background: "--color-secondary"
+  size-form:
+    title: "Size Form"
+    description: |
+      Use this field when the user needs to pick a size.
+    background: "--color-secondary"
