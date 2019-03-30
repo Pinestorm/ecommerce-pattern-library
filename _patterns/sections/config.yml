@@ -11,3 +11,7 @@ patterns:
     title: "Product Details"
     description: |
       This section holds all of the product's information. Does not show up properly in the Pattern Library.
+  intro-section:
+    title: "Intro Paragraph"
+    description: |
+      This is the intro paragraph that goes on the home page. It is not used for any other page.
