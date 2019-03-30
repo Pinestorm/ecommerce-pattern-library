@@ -71,5 +71,5 @@ patterns:
   size-form:
     title: "Size Form"
     description: |
-      Use this field when the user needs to pick a size.
+      Use this field when the user needs to pick a clothing size.
     background: "--color-secondary"

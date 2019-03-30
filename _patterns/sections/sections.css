@@ -2,3 +2,15 @@
   position: relative;
   top: 200px;
 }
+
+.line-3 {
+  background-color: var(--color-primary);
+  color: var(--color-primary);
+  max-height: 10px;
+}
+
+.rmc {
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  border: 5px solid var(--color-primary-dark);
+}

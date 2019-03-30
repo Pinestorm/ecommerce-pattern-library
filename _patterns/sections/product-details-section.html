@@ -1,0 +1,24 @@
+<section class="island">
+  <ul class="list-group-inline push-0">
+    <li><i class="icon i-32"><svg><use xlink:href="/images/icons.svg#star"></use></svg></i></li>
+    <li><i class="icon i-32"><svg><use xlink:href="/images/icons.svg#star"></use></svg></i></li>
+    <li><i class="icon i-32"><svg><use xlink:href="/images/icons.svg#star"></use></svg></i></li>
+    <li><i class="icon i-32"><svg><use xlink:href="/images/icons.svg#star"></use></svg></i></li>
+  </ul>
+  <h2 class="yotta">{{page.name}}</h2>
+  <p class="exa">$ {{page.price}} CDN</p>
+  <div class="push">
+    {% pattern forms/size-form %}
+  </div>
+  <div class="push">
+    {% pattern forms/colours-form %}
+  </div>
+  <div class="gutter-2 push">
+    {% pattern buttons/basic text="Add to Cart" url="/products/" %}
+  </div>
+  <div class="line-3">
+    <p class="line-3">.</p>
+  </div>
+  <p class="giga">{{page.description}}</p>
+  <p class="rmc island">With every purchase of magical clothing, a small portion gets donated to RMC, an organization who protects and cares for magical creatures.</p>
+</section>
