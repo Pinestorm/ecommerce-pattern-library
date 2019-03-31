@@ -36,3 +36,28 @@ patterns:
         data:
           source: "site.products[0]"
           type: product
+  5-star-review-card:
+    title: "5 Star Review Card"
+    width: 400
+    description: |
+      Use this card in a reviews section where a 5 star review is displayed.
+  4-star-review-card:
+    title: "4 Star Review Card"
+    width: 400
+    description: |
+      Use this card in a reviews section where a 4 star review is displayed.
+  3-star-review-card:
+    title: "3 Star Review Card"
+    width: 400
+    description: |
+      Use this card in a reviews section where a 3 star review is displayed.
+  2-star-review-card:
+    title: "2 Star Review Card"
+    width: 400
+    description: |
+      Use this card in a reviews section where a 2 star review is displayed.
+  1-star-review-card:
+    title: "1 Star Review Card"
+    width: 400
+    description: |
+      Use this card in a reviews section where a 1 star review is displayed.

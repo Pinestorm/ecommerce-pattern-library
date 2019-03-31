@@ -14,13 +14,7 @@
   </ul>
 
   <nav class="nav pad-t-1-2 pad-b-1-2 text-center">
-    <ul class="list-group-inline bold push-0">
-      <li class="island-1-8 {% if page.highlight_nav == 'index' %}current{% endif %}"><a class="btn btn-view text-center island-1-4 milli" href="/index/">About</a></li>
-      <li class="island-1-8 {% if page.highlight_nav == 'products' %}current{% endif %}"><a class="btn btn-view text-center island-1-4 milli" href="/products/">Hoodies</a></li>
-      <li class="island-1-8 {% if page.highlight_nav == 'jackets' %}current{% endif %}"><a class="btn btn-view text-center island-1-4 milli" href="#">Jackets</a></li>
-      <li class="island-1-8 {% if page.highlight_nav == 'shirts' %}current{% endif %}"><a class="btn btn-view text-center island-1-4 milli" href="#">Shirts</a></li>
-      <li class="island-1-8 {% if page.highlight_nav == 'accessories' %}current{% endif %}"><a class="btn btn-view text-center island-1-4 milli" href="#">Accessories</a></li>
-    </ul>
+    {% pattern navigations/main-nav %}
   </nav>
 </header>
 <div class="line-1 push-0">

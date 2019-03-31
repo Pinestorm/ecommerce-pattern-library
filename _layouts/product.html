@@ -6,6 +6,4 @@ layout: default
 <p>{{page.description}}</p>
 <img src="{{page.image}}" alt="">
 
-{% for product in site.products %}
-  {% pattern cards/product-card data=product %}
-{% endfor %}
+{% pattern sections/product-details-section %}
