@@ -1,6 +1,6 @@
 <div>
-  <label for="province">Province</label>
-  <select id="province" name="province">
+  <label class="push-1-8 form-label" for="province">Province</label>
+  <select id="province" name="province" aria-describedby="province-error">
     <option value="">Select a province</option>
     <option>Alberta</option>
     <option>British Columbia</option>
@@ -16,4 +16,7 @@
     <option>Saskatchewan</option>
     <option>Yukon</option>
   </select>
+  <p id="province-error">
+    <span class="form-error milli">Please choose your province.</span>
+  </p>
 </div>
