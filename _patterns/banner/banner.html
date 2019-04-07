@@ -1,11 +1,13 @@
-<div class="banner">
-  <div class="embed embed-3by1">
-    <img class="img-flex embed-item" src="{{include.image}}" alt="Modern Wizard Introduction">
-  </div>
-  <div class="banner-content">
-    <h2 class="giga island-1-2">{{include.heading}}</h2>
-    <p class="gutter-1-2">{{include.text}}</p>
-    <div class="island right banner-button">
+<div class="banner relative">
+  <img class="img-flex" src="{{include.image}}" alt="Modern Wizard Introduction">
+  <div class="banner-content gutter-1-2 pad-t pad-b">
+    <div class="grid grid-middle wrapper">
+      <div class="unit xs-1 s-1 m-1 l-1-2">
+        <h1 class="yotta push-0">{{include.heading}}</h1>
+        <p>{{include.text}}</p>
+      </div>
+    </div>
+    <div class="banner-btn">
       {% if include.button_url %}
         {% pattern buttons/normal url=include.button_url text=include.button_text %}
       {% endif %}

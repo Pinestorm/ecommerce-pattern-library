@@ -2,4 +2,21 @@
 layout: default
 ---
 
-{% pattern banner/banner button_text="Shop Now!" button_url="/products/" heading="Ever wish you could cast magic spells?" text="With help from Modern Wizard, now you can! Being both fashionable and practical, Modern Wizard clothing is woven with the finest exotic fibres then enchanted by skilled spell casters." image="/images/banner.jpg" %}
+{% pattern banner/banner button_text="Shop Now!" button_url="/products/" heading="Enchanted Magical Clothing" text="Being both fashionable and practical. Woven with the finest exotic fibres then enchanted by skilled spell casters." image="/images/banner.jpg" %}
+
+<div class="island">
+  {% pattern sections/intro-section %}
+</div>
+<div>
+  {% pattern banner/header-banner heading="New and Trending Items" %}
+</div>
+<section class="grid push wrapper gutter-1-4">
+  {% for product in site.products limit:4 %}
+  <div class="unit xs-1 s-1-2 m-1-2 l-1-4 gutter-1-4 push-1-2">
+    {% pattern cards/display-card data=product %}
+  </div>
+  {% endfor %}
+</section>
+<div class="push-0">
+  {% pattern sections/subscribe-bar %}
+</div>

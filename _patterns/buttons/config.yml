@@ -67,3 +67,12 @@ patterns:
       - name: url
         type: url
         example: "/products/"
+  submit:
+    title: "Submit Button"
+    description: |
+      The submit button is to be used only after a form to submit it.
+    width: "20em"
+    fields:
+      - name: text
+        type: string
+        example: "Submit"

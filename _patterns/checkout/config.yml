@@ -1,0 +1,13 @@
+title: "Checkout"
+description: |
+  These are the components that make the checkout page.
+
+patterns:
+  checkout-form:
+    title: "Checkout Form"
+    description: |
+      This is the form that the user uses to check out.
+  sidebar:
+    title: Sidebar
+    description: |
+      This is the sidebar that goes beside the checkout form (Or on top for mobile.) It shows the items in the cart and the price.

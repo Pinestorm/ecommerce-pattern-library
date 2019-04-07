@@ -73,3 +73,23 @@ patterns:
     description: |
       Use this field when the user needs to pick a clothing size.
     background: "--color-secondary"
+  card-number-form:
+    title: "Card Number Form"
+    description: |
+      Use this field when the user needs to enter their credit card number.
+    background: "--color-secondary"
+  card-name-form:
+    title: "Card Name Form"
+    description: |
+      Use this field when the user needs to enter their name that appears on their credit card.
+    background: "--color-secondary"
+  expiry-form:
+    title: "Expiry Form"
+    description: |
+      Use this field when the user needs to enter their credit card expiry date.
+    background: "--color-secondary"
+  shipping-method-form:
+    title: "Shipping Method Form"
+    description: |
+      Use this field when the user needs to enter their credit card number.
+    background: "--color-secondary"
