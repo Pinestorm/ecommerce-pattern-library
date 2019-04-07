@@ -1,4 +1,7 @@
 <div>
-  <label for="name">First & Last Name</label>
-  <input id="name" name="name" required>
+  <label class="push-1-8 form-label" for="name">First & Last Name</label>
+  <input id="name" name="name" placeholder="John Smith" required required aria-describedby="name-error">
+  <p id="name-error">
+    <span class="form-error milli">Please Provide a proper name.</span>
+  </p>
 </div>
