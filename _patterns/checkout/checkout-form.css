@@ -10,6 +10,8 @@
   color: var(--color-primary-dark);
 }
 
-.form {
-
+.sidebar {
+  background-color: var(--color-secondary);
+  border: 5px solid var(--color-black);
+  max-width: 500px;
 }
