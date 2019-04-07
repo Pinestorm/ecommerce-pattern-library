@@ -2,18 +2,44 @@
 layout: default
 ---
 
-<div class="grid gutter">
+<div class="grid island">
   <div class="unit xs-1 s-1 m-2-3 l-2-3 xl-3-4">
-    <h2>Check out</h2>
-    <form class="">
+    <h1>Check out</h1>
+    <form class="express-checkout">
 
     </form>
-    <form class="">
-
+    <form class="email gutter-1-4">
+      {% pattern forms/email-form %}
     </form>
-    <form class="">
+    <form class="checkbox">
+      {% pattern forms/subscribe-form-2 %}
+    </form>
+    <form class="fieldset-address">
       <fieldset>
-
+        <legend class="gutter-1-4">Shipping address</legend>
+        <div class="grid">
+          <div class="unit xs-1 s-1 m-1 gutter-1-4 name push-1-2">
+            {% pattern forms/name-form %}
+          </div>
+          <div class="unit xs-1 s-1 m-1 gutter-1-4 address push-1-2">
+            {% pattern forms/address-form %}
+          </div>
+          <div class="unit xs-1 s-1 m-1 gutter-1-4 address-2 push-1-2">
+            {% pattern forms/address-form-2 %}
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 gutter-1-4 city push-1-2">
+            {% pattern forms/city-form %}
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 gutter-1-4 province push-1-2">
+            {% pattern forms/province-form %}
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 gutter-1-4 postal-code push-1-2">
+            {% pattern forms/postal-code-form %}
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 gutter-1-4 phone push-1-">
+            {% pattern forms/phone-form %}
+          </div>
+        </div>
       </fieldset>
     </form>
     <div class="push text-center wrapper gutter">
@@ -21,6 +47,11 @@ layout: default
     </div>
   </div>
   <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-4">
+    <div class="product-summary-card">
 
+    </div>
+    <form class="discount max-length gutter-2">
+      {% pattern forms/discount-code %}
+    </form>
   </div>
 </div>
