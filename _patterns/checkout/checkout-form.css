@@ -1,0 +1,15 @@
+.legend-title {
+  color: var(--color-primary);
+}
+
+.form-error {
+  color: red;
+}
+
+.form-label {
+  color: var(--color-primary-dark);
+}
+
+.form {
+
+}

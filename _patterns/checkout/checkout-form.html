@@ -1,0 +1,65 @@
+<section>
+  <h1 class="yotta gutter-1-2 pad-t-1-2">Check out</h1>
+  <form class="push-0" method="POST" action="https://formspree.io/stormieleaf227@gmail.com">
+    <fieldset class="gutter-1-2">
+      <legend class="legend-title">Contact Information</legend>
+      <div class="gutter-1-2">
+        {% pattern forms/email-form %}
+      </div>
+      <div>
+        {% pattern forms/subscribe-form-2 %}
+      </div>
+    </fieldset>
+    <fieldset class="gutter-1-2">
+      <legend class="legend-title">Shipping Address</legend>
+      <div class="grid">
+        <div class="unit xs-1 s-1 m-1 l-1">
+          {% pattern forms/name-form %}
+        </div>
+        <div class="unit xs-1 s-1 m-1 l-1">
+          {% pattern forms/address-form %}
+        </div>
+        <div class="unit xs-1 s-1 m-1 l-1">
+          {% pattern forms/address-form-2 %}
+        </div>
+        <div class="unit xs-1 s-1 m-1 l-1">
+          {% pattern forms/city-form %}
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-4">
+          {% pattern forms/province-form %}
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-4">
+          {% pattern forms/postal-code-form %}
+        </div>
+        <div class="unit xs-1 s-1 m-1 l-1">
+          {% pattern forms/phone-form %}
+        </div>
+      </div>
+    </fieldset>
+    <fieldset class="gutter-1-2">
+      <legend class="legend-title">Shipping Speed</legend>
+      <div>
+        {% pattern forms/shipping-method-form %}
+      </div>
+    </fieldset>
+    <fieldset class="gutter-1-2">
+      <legend class="legend-title">Payment Details</legend>
+      <div class="grid">
+        <div class="unit xs-1 s-1 m-1 l-1">
+          {% pattern forms/card-number-form %}
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2">
+          {% pattern forms/card-name-form %}
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2">
+          {% pattern forms/expiry-form %}
+        </div>
+      </div>
+    </fieldset>
+
+    <div class="text-center gutter push">
+      {% pattern buttons/submit text="Review & Check out" %}
+    </div>
+
+  </form>
+</section>
