@@ -16,9 +16,6 @@
   max-width: 500px;
 }
 
-.error-message {
-  display: none;
-  background-color: #fee;
-  color: #c33;
-  border-radius: .5em;
+.fat-border {
+  border-bottom: 10px solid var(--color-primary);
 }
