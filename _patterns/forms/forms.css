@@ -11,3 +11,10 @@ legend {
 .bold {
   font-weight: bold;
 }
+
+.error-message {
+  display: none;
+  background-color: #fee;
+  color: #c33;
+  border-radius: .5em;
+}

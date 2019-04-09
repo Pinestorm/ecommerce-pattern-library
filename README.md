@@ -1,5 +1,3 @@
----
-
 ## Collaborators
 
 - [@Pinestorm] (https://github.com/Pinestorm)
