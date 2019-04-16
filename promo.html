@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+<main id="main" role="main" tabindex="0">
+  <div class="pad-t-1-2">
+    {% pattern banner/header-banner heading="Save up to 50% off on bulk hoodie purchases!" %}
+  </div>
+  <div>
+    {% pattern banner/banner heading="This summer, get magical hoodies for the whole family" text="Get them now, sale lasts until August 31, 2019!" image="/images/promo-banner.jpg" %}
+  </div>
+  <section class="grid push wrapper gutter-1-4 text-center pad-t-1-2">
+    {% for product in site.products limit:2 %}
+    <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-4 push-1-2">
+      {% pattern cards/product-card data=product %}
+    </div>
+    {% endfor %}
+  </section>
+
+  <section class="push-2 wrapper gutter">
+    <table>
+      <caption class="visually-hidden">Bulk Pricing Table</caption>
+      <thead>
+        <tr>
+          <th scope="col" rowspan="2" class="valign-middle">Quantity</th>
+          <th scope="col" rowspan="2" class="valign-middle">Price/Each</th>
+          <th scope="col" rowspan="2" class="valign-middle">Discount</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1–5</td>
+          <td>$71.99</td>
+          <td>10%</td>
+        </tr>
+        <tr>
+          <td>5-10</td>
+          <td>$67.99</td>
+          <td>15%</td>
+        </tr>
+        <tr>
+          <td>10-20</td>
+          <td>$63.99</td>
+          <td>10%</td>
+        </tr>
+        <tr>
+          <td>20-50</td>
+          <td>$59.99</td>
+          <td>25%</td>
+        </tr>
+        <tr>
+          <td>51+</td>
+          <td>$39.99</td>
+          <td>50%</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <div>
+    {% pattern sections/subscribe-bar %}
+  </div>
+</main>
