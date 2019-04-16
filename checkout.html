@@ -9,46 +9,6 @@ layout: default
     </div>
   </div>
   <div class="unit xs-1 s-1 m-1 l-1-2 unit-pull-l-1-2 xl-3-4">
-    <h1 class="push-1-2">Check out</h1>
-    <fieldset class="push-0">
-      <legend class="gutter-1-4">Contact information</legend>
-      <form class="email gutter-1-4 push-1-2">
-        {% pattern forms/email-form %}
-      </form>
-    </fieldset>
-    <form class="gutter-1-4 push">
-      {% pattern forms/subscribe-form-2 %}
-    </form>
-    <form>
-      <fieldset>
-        <legend class="gutter-1-4">Shipping address</legend>
-        <div class="grid">
-          <div class="unit xs-1 s-1 m-1 gutter-1-4 push-1-2">
-            {% pattern forms/name-form %}
-          </div>
-          <div class="unit xs-1 s-1 m-1 gutter-1-4 push-1-2">
-            {% pattern forms/address-form %}
-          </div>
-          <div class="unit xs-1 s-1 m-1 gutter-1-4 push-1-2">
-            {% pattern forms/address-form-2 %}
-          </div>
-          <div class="unit xs-1 s-1 m-1-2 gutter-1-4 push-1-2">
-            {% pattern forms/city-form %}
-          </div>
-          <div class="unit xs-1 s-1 m-1-2 gutter-1-4 push-1-2">
-            {% pattern forms/province-form %}
-          </div>
-          <div class="unit xs-1 s-1 m-1-2 gutter-1-4 push-1-2">
-            {% pattern forms/postal-code-form %}
-          </div>
-          <div class="unit xs-1 s-1 m-1-2 gutter-1-4 push-1-">
-            {% pattern forms/phone-form %}
-          </div>
-        </div>
-      </fieldset>
-    </form>
-    <div class="push text-center wrapper gutter">
-      {% pattern buttons/normal text="Continue to shipping method" url="#" %}
-    </div>
+    {% pattern checkout/checkout-form %}
   </div>
 </div>
