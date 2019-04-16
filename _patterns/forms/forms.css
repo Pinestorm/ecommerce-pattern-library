@@ -1,5 +1,8 @@
 .subscribe {
   background-color: var(--color-primary);
+}
+
+.subscribe-label {
   color: var(--color-white);
 }
 
