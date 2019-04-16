@@ -22,7 +22,7 @@
 
 .btn-subscribe {
   background-color: var(--color-primary);
-  border-color: var(--color-white);
+  border: none;
   color: var(--color-white);
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
