@@ -7,6 +7,7 @@ patterns:
     title: "Call to Action Banner"
     description: |
       The call to action banner should only be used on the Home page and Product list page to encourage to user to do something.
+    background: "--color-secondary"
     fields:
     - name: heading
       type: string

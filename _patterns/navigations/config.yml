@@ -11,11 +11,8 @@ patterns:
     title: "Review Button"
     description: |
       This goes in the reviews section to show how many stars an item has and to prompt the user to write a review.
+    background: "--color-secondary"
   product-breadcrumb:
     title: "Product Breadcrumbs"
     description: |
       This item goes on the very top of the product description page for the user to be able to navigate back to past pages.
-  checkout-breadcrumbs:
-    title: "Checkout Breadcrumbs"
-    description: |
-      This item goes on the very top of the checkout pages so that the user can navigate back to differnt sections of the checkout process.
