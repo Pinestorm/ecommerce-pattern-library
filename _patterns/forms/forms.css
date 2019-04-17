@@ -31,6 +31,12 @@ legend {
   border-radius: .5em;
 }
 
+.error-message-highlighted {
+  background-color: #fee;
+  color: #fff;
+  border-radius: 1em;
+}
+
 .is-validated > .error-message:first-child,
 .is-validated > fieldset > .error-message,
 .is-validated input:invalid + .error-message,

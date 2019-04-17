@@ -32,13 +32,7 @@
 }
 
 .review-card {
-  max-height: 400px;
   background-color: var(--color-secondary);
-}
-
-.review-card:hover {
-  transform: scale(1.1);
-  transition: all .2s linear;
 }
 
 @media only screen and (min-width: 36em) {
