@@ -13,3 +13,52 @@
 .sub-form {
   border: 0;
 }
+
+.detail-image {
+  width: 600px;
+}
+
+.colours {
+  left: 20px;
+  top: 400px;
+  z-index: 2;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .colours {
+    left: 25px;
+    top: 380px;
+    z-index: 2;
+  }
+
+  .prod-image {
+    top: -230px;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  .colours {
+    left: 50px;
+    top: 400px;
+    z-index: 2;
+  }
+
+  .prod-image {
+    top: -250px;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  .colours {
+    left: 190px;
+    top: 400px;
+    z-index: 2;
+  }
+
+  .prod-image {
+    top: -290px;
+  }
+}
